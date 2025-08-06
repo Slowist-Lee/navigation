@@ -2,6 +2,8 @@
 
 **[Demo](https://navigation.slowist.top/)**
 
+<img width="2485" height="1390" alt="image" src="https://github.com/user-attachments/assets/b4a6101a-5ea5-4e13-b30b-7a079e8f2dd4" />
+
 A simple, fast, and highly customizable static navigation page. managed through a single YAML configuration file (`navigation.yml`).
 
 The final HTML is automatically generated and deployed using a Python script and GitHub Actions.
@@ -46,3 +48,7 @@ index:
 ## More Customization
 
 - modifying `template.html` and `main.css` for more customization.
+
+## To Do
+
+- Night Apparence.
