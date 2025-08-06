@@ -43,6 +43,21 @@ MathJax.Hub.Config({
         width: 100%; /* 设置线的宽度 */
         margin: 20px 0; /* 设置线的上下外边距 */
     }
+    /* 为左侧边栏设置相对定位，作为“锚点” */
+    #layout-menu {
+        position: relative;
+        /* 确保内容不会与底部署名重叠，留出足够空间 */
+        padding-bottom: 60px; 
+    }
+
+    /* 新增的边栏页脚样式 */
+    .menu-footer {
+        position: absolute; /* 设置绝对定位 */
+        bottom: 20px;       /* 距离父容器底部 20px */
+        left: 0;            /* 距离父容器左边 0px */
+        width: 100%;        /* 宽度与父容器相同 */
+        text-align: center; /* 文字居中 */
+    }
 </style>
 <!--end column-->
 
