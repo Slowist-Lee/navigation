@@ -50,10 +50,11 @@ MathJax.Hub.Config({
 
     .menu-footer {
         position: absolute; 
-        bottom: 20px;       
-        left: 0;           
-        width: 100%;        
-        text-align: center; 
+        bottom: 20px;     
+        left: 50%;      
+        transform: translateX(-50%); 
+        width: 90%; 
+        text-align: center;
     }
 </style>
 <!--end column-->
@@ -92,11 +93,9 @@ MathJax.Hub.Config({
 {% if zjuers %}<a href="https://www.zjuers.com/"><img src="./images/zju-logo1.png" alt="zjuers" style="width: 60%; height: auto;"></a>{% endif %}
 </div>
 </div>  <!--<div id="layout-menu">-->
-<div style="padding: 20px 15px 0 15px; text-align: center;">
-<p style="color: #888; font-size: 0.9em; margin: 0;">
-    Built with <a href="https://github.com/Slowist-Lee/navigation/" target="_blank" style="color: #759bd9;">Navigation</a>
-</p>
-</div>
+    <div class="menu-footer">
+        <p style="color: #888; font-size: 0.9em; margin: 0;">Built with <a href="https://github.com/Slowist-Lee/navigation/" target="_blank" style="color: #7b7bdd;">Navigation</a></p>
+    </div>
 </div>  <!--<div id="layout-menu-container">-->
 
 
