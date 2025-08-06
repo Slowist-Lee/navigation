@@ -24,7 +24,9 @@ left_column:
   - name: Home
     url: index.html
   - name: Another Page
-    url: another.html # You can create more pages
+    url: another.html # You can create more pages and fill in the name here
+  - name: Typst
+    url: https://typst.app # it can be an outer url either
 
 # Defines the content for the 'index.html' page
 # the "index" key become the title of the html page built
