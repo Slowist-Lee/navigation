@@ -8,7 +8,7 @@ TEMPLATE_FILE = 'template.html'
 OUTPUT_DIR = '.'  # Output to the current directory
 
 # Global configuration keys (the script will skip these when looking for pages)
-RESERVED_KEYS = ['page_title', 'column_title', 'left_column', 'google', 'zjuers']
+RESERVED_KEYS = ['page_title', 'column_title', 'left_column', 'google', 'zjuers', 'logo', 'banner']
 
 # Column splitting logic configuration
 LINE_LIMIT_PER_COLUMN = 23  # Maximum number of lines per column
