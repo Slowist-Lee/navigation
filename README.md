@@ -1,6 +1,6 @@
 # Customizable Static Navigation Page
 
-**[Demo](https://navigation.slowist.top/)**
+**[Demo](https://nav.slowist.top/)**
 
 <img width="2485" height="1390" alt="image" src="https://github.com/user-attachments/assets/b4a6101a-5ea5-4e13-b30b-7a079e8f2dd4" />
 
