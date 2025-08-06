@@ -11,9 +11,14 @@ The final HTML is automatically generated and deployed using a Python script and
 The configuration is written in `navigation.yml`. Here is a basic overview of the configuration file:
 
 ```yaml
-# Sets the title of the browser tab
-page_title: "My Awesome Navigation Page"
-
+# the logo of the webpage
+logo: ./images/logo.svg # fill in the location of the logo in your repository
+# banner in the left column
+banner: ./images/slowist-logo.jpg # fill in the location of the picture in your repository
+# the title of the webpage
+page_title: "导航 | Navigation"
+# title of the left column
+column_title: "Navigation"
 # Defines the links in the left-hand sidebar menu
 left_column:
   - name: Home
@@ -22,6 +27,8 @@ left_column:
     url: another.html # You can create more pages
 
 # Defines the content for the 'index.html' page
+# the "index" key become the title of the html page built
+# for example: "study"  -> https://navigation.slowist.top/study.html
 index:
   # Each item in the list becomes a card with a title.
   # The key ("My Favorite Tools") becomes the card's H2 title.
