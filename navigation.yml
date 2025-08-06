@@ -1,3 +1,7 @@
+# the logo of the webpage
+logo: ./images/logo.svg
+# banner in the left column
+banner: ./images/slowist-logo.jpg
 # the title of the webpage
 page_title: "导航 | Navigation"
 # title of the left column
